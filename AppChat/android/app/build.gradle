@@ -83,6 +83,7 @@ project.ext.react = [
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
 /**
  * Set this to true to create two separate APKs instead of one:
@@ -201,6 +202,9 @@ dependencies {
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
     implementation 'androidx.multidex:multidex:2.0.1' 
+
+    //animated
+    implementation 'com.facebook.fresco:animated-gif:2.0.0'
 
     //facebook
     implementation 'com.facebook.android:facebook-android-sdk:[4,5)'

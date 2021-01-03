@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "988448815545",
+    "firebase_url": "https://appchat-eec38-default-rtdb.firebaseio.com",
     "project_id": "appchat-eec38",
     "storage_bucket": "appchat-eec38.appspot.com"
   },
@@ -37,6 +38,14 @@
             {
               "client_id": "988448815545-qs0t2tbsui3nvbt596l73fdh88l4eomq.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "988448815545-fjav4s4fq9jjcdtu1lhe37ffp8ihsio8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.AppChat",
+                "app_store_id": "123456789"
+              }
             }
           ]
         }
